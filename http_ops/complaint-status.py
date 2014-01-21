@@ -47,6 +47,7 @@ attribs = [ ("Reg No   ", 'Regno'),
             ("Date     ", 'Rdate'),
             ("Time     ", 'VdateTm'),
             ("Remarks  ", 'Premarks'), 
+            ("Status   ", 'BS2'), 
           ]
 for attr in attribs:
 	n = soup.select('#div%s'%(attr[1]))
